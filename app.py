@@ -9,15 +9,15 @@ def index():
 
 @app.route("/soma/valor1=<int:n1>/valor2=<int:n2>")
 def somar(valor1,valor2):
-    return f'{valor1} + {valor2}'
+    return f'Resultado = {valor1} + {valor2}'
 
 @app.route("/subtrair/valor1=<int:n1>/valor2=<int:n2>")
 def subtrair(valor1,valor2):
-    return 
+    return f'Resultado = {valor1} - {valor2}'
 
 @app.route("/multiplicar/valor1=<int:n1>/valor2=<int:n2>")
 def multiplicar(valor1,valor2):
-    return 
+    return f'Resultado = {valor1} * {valor2}'
 
 @app.route("/dividir/valor1=<int:n1>/valor2=<int:n2>")
 def dividir(valor1,valor2):
